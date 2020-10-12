@@ -1,455 +1,485 @@
 {
-   "name": "Digifox Default List",
-   "timestamp": "",
-   "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/digifox.svg",
-   "keywords": ["digifox", "defi"],
-   "description": "",
-   "tags": {
-     "defi": { "name": "DeFi", "description": "" },
-     "enterprise": { "name": "Enterprise", "description": "" },
-     "farming": { "name": "Farming", "description": "" },
-     "layer2": { "name": "Layer2", "description": "" },
-     "oracle": { "name": "Oracle", "description": "" },
-     "prediction": { "name": "Prediction", "description": "" },
-     "stablecoin": { "name": "Stablecoin", "description": "" },
-     "staking": { "name": "Staking", "description": "" },
-     "synthetic": { "name": "Synthetic", "description": "" }
-   },
-   "tokens": [
-     {
-       "name": "Tether",
-       "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-       "symbol": "USDT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-       "tags": ["stablecoin"]
-     },
-     {
-       "name": "USD Coin",
-       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-       "symbol": "USDC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-       "tags": ["stablecoin"]
-     },
-     {
-       "name": "USD Coin",
-       "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-       "symbol": "USDC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-       "tags": ["stablecoin", "synthetic"]
-     },
-     {
-       "name": "TrueUSD",
-       "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
-       "symbol": "TUSD",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
-       "tags": ["stablecoin"]
-     },
-     {
-       "name": "Paxos Standard",
-       "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
-       "symbol": "PAX",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png",
-       "tags": ["stablecoin"]
-     },
-     {
-       "name": "Wrapped Bitcoin",
-       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-       "symbol": "WBTC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
-       "tags": ["synthetic"]
-     },
-     {
-       "name": "Chainlink",
-       "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
-       "symbol": "LINK",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
-       "tags": ["oracle"]
-     },
-     {
-       "name": "Aave",
-       "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
-       "symbol": "LEND",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Maker",
-       "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
-       "symbol": "LEND",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "OMG Network",
-       "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
-       "symbol": "OMG",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07/logo.png",
-       "tags": ["layer2"]
-     },
-     {
-       "name": "Synthetix Network Token",
-       "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-       "symbol": "SNX",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "UMA",
-       "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
-       "symbol": "UMA",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Basic Attention Token",
-       "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
-       "symbol": "BAT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png"
-     },
-     {
-       "name": "Celsius",
-       "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
-       "symbol": "CEL",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
-     },
-     {
-       "name": "Uniswap",
-       "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
-       "symbol": "UNI",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Compound",
-       "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
-       "symbol": "COMP",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "0x",
-       "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-       "symbol": "ZRX",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Ren",
-       "address": "0x408e41876cccdc0f92210600ef50372656052a38",
-       "symbol": "REN",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Loopring",
-       "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
-       "symbol": "LRC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Kyber Network",
-       "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
-       "symbol": "KNC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "NXM",
-       "address": "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b",
-       "symbol": "NXM",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xd7c49CEE7E9188cCa6AD8FF264C1DA2e69D4Cf3B/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Augur",
-       "address": "0x221657776846890989a759ba2973e427dff5c9bb",
-       "symbol": "REP",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x221657776846890989a759BA2973e427DfF5C9bB/logo.png",
-       "tags": ["defi", "prediction"]
-     },
-     {
-       "name": "Enjin Coin",
-       "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
-       "symbol": "ENJ",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png"
-     },
-     {
-       "name": "Band Protocol",
-       "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
-       "symbol": "BAND",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
-       "tags": ["oracle"]
-     },
-     {
-       "name": "Ocean Protocol",
-       "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
-       "symbol": "OCEAN",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
-       "tags": ["enterprise"]
-     },
-     {
-       "name": "Aragon",
-       "address": "0x960b236a07cf122663c4303350609a66a7b288c0",
-       "symbol": "ANT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
-     },
-     {
-       "name": "Decentraland",
-       "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
-       "symbol": "MANA",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png"
-     },
-     {
-       "name": "Quant",
-       "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
-       "symbol": "QMT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
-       "tags": ["enterprise"]
-     },
-     {
-       "name": "Balancer",
-       "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-       "symbol": "BAL",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Storj",
-       "address": "0xba100000625a3754423978a60c9317c58a424e3D",
-       "symbol": "STORJ",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png",
-       "tags": ["enterprise"]
-     },
-     {
-       "name": "Orchid",
-       "address": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
-       "symbol": "OXT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png"
-     },
-     {
-       "name": "Golem",
-       "address": "0xa74476443119a942de498590fe1f2454d7d4ac0d",
-       "symbol": "GNT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xa74476443119A942dE498590Fe1f2454d7D4aC0d/logo.png",
-       "tags": ["enterprise"]
-     },
-     {
-       "name": "Numeraire",
-       "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
-       "symbol": "NMR",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671/logo.png",
-       "tags": ["staking"]
-     },
-     {
-       "name": "Status",
-       "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
-       "symbol": "SNT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x744d70FDBE2Ba4CF95131626614a1763DF805B9E/logo.png"
-     },
-     {
-       "name": "Ampleforth",
-       "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
-       "symbol": "AMPL",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Reserve Rights",
-       "address": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
-       "symbol": "RSR",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Bancor",
-       "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
-       "symbol": "BNT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Matic Network",
-       "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-       "symbol": "MATIC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
-       "tags": ["layer2"]
-     },
-     {
-       "name": "Pax Gold",
-       "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-       "symbol": "PAXG",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
-       "tags": ["stablecoin"]
-     },
-     {
-       "name": "iExec RLC",
-       "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
-       "symbol": "RLC",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
-       "tags": ["oracle"]
-     },
-     {
-       "name": "Gnosis",
-       "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
-       "symbol": "GNO",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
-       "tags": ["prediction"]
-     },
-     {
-       "name": "Unibright",
-       "address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
-       "symbol": "UBT",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
-       "tags": ["enterprise"]
-     },
-     {
-       "name": "bZx Protocol Token",
-       "address": "0x56d811088235f11c8920698a204a5010a788f4b3",
-       "symbol": "BZRX",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x56d811088235F11C8920698a204A5010a788f4b3/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Meta",
-       "address": "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2",
-       "symbol": "MTA",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "Celer Token",
-       "address": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
-       "symbol": "CELR",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4f9254c83eb525f9fcf346490bbb3ed28a81c667/logo.png",
-       "tags": ["layer2"]
-     },
-     {
-       "name": "Raiden Token",
-       "address": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
-       "symbol": "RDN",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6/logo.png",
-       "tags": ["layer2"]
-     },
-     {
-       "name": "Tellor",
-       "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
-       "symbol": "TRB",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png",
-       "tags": ["oracle"]
-     },
-     {
-       "name": "DIA",
-       "address": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
-       "symbol": "DIA",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419/logo.png",
-       "tags": ["defi"]
-     },
-     {
-       "name": "yearn.finance",
-       "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
-       "symbol": "YFI",
-       "decimals": "18",
-       "chainId": "1",
-       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
-       "tags": ["farming", "defi"]
-     }
-   ]
- }
- 
+  "name": "Digifox Token List",
+  "timestamp": "2020-10-12T21:05:58Z",
+  "logoURI": "ipfs://QmaM2P2Qbv6jozd3KQoAvZJTiDRB3kKVPG9ab5UaB8pqXr",
+  "keywords": ["digifox", "defi", "tokens"],
+  "tags": {
+    "defi": {
+      "name": "DeFi",
+      "description": "Asset related to decentralized finance, which aims to remove or minimize trust, as well as costs, when conducting financial activities"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Tokens focused on bringing blockchain, smart contract technology, and other tools to enterprise companies"
+    },
+    "farming": {
+      "name": "Farming",
+      "description": "Asset focused on yield farming which relates to seeking out yield for assets"
+    },
+    "layer2": {
+      "name": "Layer2",
+      "description": "Tokens building second layer networks to scale Ethereum"
+    },
+    "oracle": {
+      "name": "Oracle",
+      "description": "Tokens focused on providing trustless data to blockchain protocols"
+    },
+    "prediction": {
+      "name": "Prediction",
+      "description": "Tokens for decentralized prediction markets"
+    },
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Assets whose value is pegged to the price of a fiat currency or financial asset"
+    },
+    "staking": {
+      "name": "Staking",
+      "description": "Tokens that can be staked or held in order to generate interest or other related returns"
+    },
+    "synthetic": {
+      "name": "Synthetic",
+      "description": "Assets that simulate an underlying asset, like currencies, stocks, bonds, commodities, indexes, or interest rates"
+    }
+  },
+  "tokens": [
+    {
+      "name": "Tether",
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "symbol": "USDT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "USD Coin",
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Dai",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+      "tags": ["stablecoin", "synthetic"]
+    },
+    {
+      "name": "TrueUSD",
+      "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Paxos Standard",
+      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+      "symbol": "PAX",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "Wrapped Bitcoin",
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "symbol": "WBTC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+      "tags": ["synthetic"]
+    },
+    {
+      "name": "Chainlink",
+      "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "symbol": "LINK",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+      "tags": ["oracle"]
+    },
+    {
+      "name": "Aave",
+      "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
+      "symbol": "LEND",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Maker",
+      "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+      "symbol": "MKR",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "OMG Network",
+      "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+      "symbol": "OMG",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07/logo.png",
+      "tags": ["layer2"]
+    },
+    {
+      "name": "Synthetix Network Token",
+      "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "symbol": "SNX",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "UMA",
+      "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+      "symbol": "UMA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Basic Attention Token",
+      "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "symbol": "BAT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png"
+    },
+    {
+      "name": "Celsius",
+      "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+      "symbol": "CEL",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
+    },
+    {
+      "name": "Uniswap",
+      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "symbol": "UNI",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Compound",
+      "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "symbol": "COMP",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "0x",
+      "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Ren",
+      "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+      "symbol": "REN",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x408e41876cCCDC0F92210600ef50372656052a38/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Loopring",
+      "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "symbol": "LRC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Kyber Network",
+      "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+      "symbol": "KNC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xdd974D5C2e2928deA5F71b9825b8b646686BD200/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "NXM",
+      "address": "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b",
+      "symbol": "NXM",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xd7c49CEE7E9188cCa6AD8FF264C1DA2e69D4Cf3B/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Augur",
+      "address": "0x221657776846890989a759ba2973e427dff5c9bb",
+      "symbol": "REP",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x221657776846890989a759BA2973e427DfF5C9bB/logo.png",
+      "tags": ["defi", "prediction"]
+    },
+    {
+      "name": "Enjin Coin",
+      "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+      "symbol": "ENJ",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png"
+    },
+    {
+      "name": "Band Protocol",
+      "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+      "symbol": "BAND",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
+      "tags": ["oracle"]
+    },
+    {
+      "name": "Ocean Protocol",
+      "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+      "symbol": "OCEAN",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x967da4048cD07aB37855c090aAF366e4ce1b9F48/logo.png",
+      "tags": ["enterprise"]
+    },
+    {
+      "name": "Aragon",
+      "address": "0x960b236a07cf122663c4303350609a66a7b288c0",
+      "symbol": "ANT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x960b236A07cf122663c4303350609A66A7B288C0/logo.png"
+    },
+    {
+      "name": "Decentraland",
+      "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "symbol": "MANA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0F5D2fB29fb7d3CFeE444a200298f468908cC942/logo.png"
+    },
+    {
+      "name": "Quant",
+      "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "symbol": "QMT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4a220E6096B25EADb88358cb44068A3248254675/logo.png",
+      "tags": ["enterprise"]
+    },
+    {
+      "name": "Balancer",
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "symbol": "BAL",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Storj",
+      "address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+      "symbol": "STORJ",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png",
+      "tags": ["enterprise"]
+    },
+    {
+      "name": "Orchid",
+      "address": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+      "symbol": "OXT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png"
+    },
+    {
+      "name": "Golem",
+      "address": "0xa74476443119a942de498590fe1f2454d7d4ac0d",
+      "symbol": "GNT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xa74476443119A942dE498590Fe1f2454d7D4aC0d/logo.png",
+      "tags": ["enterprise"]
+    },
+    {
+      "name": "Numeraire",
+      "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "symbol": "NMR",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671/logo.png",
+      "tags": ["staking"]
+    },
+    {
+      "name": "Status",
+      "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "symbol": "SNT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x744d70FDBE2Ba4CF95131626614a1763DF805B9E/logo.png"
+    },
+    {
+      "name": "Ampleforth",
+      "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+      "symbol": "AMPL",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Reserve Rights",
+      "address": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
+      "symbol": "RSR",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Bancor",
+      "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "symbol": "BNT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Matic Network",
+      "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+      "tags": ["layer2"]
+    },
+    {
+      "name": "Pax Gold",
+      "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "symbol": "PAXG",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x45804880De22913dAFE09f4980848ECE6EcbAf78/logo.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "name": "iExec RLC",
+      "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
+      "symbol": "RLC",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
+      "tags": ["oracle"]
+    },
+    {
+      "name": "Gnosis",
+      "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "symbol": "GNO",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x6810e776880C02933D47DB1b9fc05908e5386b96/logo.png",
+      "tags": ["prediction"]
+    },
+    {
+      "name": "Unibright",
+      "address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
+      "symbol": "UBT",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
+      "tags": ["enterprise"]
+    },
+    {
+      "name": "bZx Protocol Token",
+      "address": "0x56d811088235f11c8920698a204a5010a788f4b3",
+      "symbol": "BZRX",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x56d811088235F11C8920698a204A5010a788f4b3/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Meta",
+      "address": "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2",
+      "symbol": "MTA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "Celer Token",
+      "address": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+      "symbol": "CELR",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4f9254c83eb525f9fcf346490bbb3ed28a81c667/logo.png",
+      "tags": ["layer2"]
+    },
+    {
+      "name": "Raiden Token",
+      "address": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
+      "symbol": "RDN",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6/logo.png",
+      "tags": ["layer2"]
+    },
+    {
+      "name": "Tellor",
+      "address": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
+      "symbol": "TRB",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5/logo.png",
+      "tags": ["oracle"]
+    },
+    {
+      "name": "DIA",
+      "address": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+      "symbol": "DIA",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419/logo.png",
+      "tags": ["defi"]
+    },
+    {
+      "name": "yearn.finance",
+      "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "symbol": "YFI",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
+      "tags": ["farming", "defi"]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
