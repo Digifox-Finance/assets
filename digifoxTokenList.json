@@ -316,12 +316,12 @@
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb/logo.png"
     },
     {
-      "name": "Golem",
-      "address": "0xa74476443119a942de498590fe1f2454d7d4ac0d",
-      "symbol": "GNT",
+      "name": "TomoChain",
+      "address": "0x05d3606d5c81eb9b7b18530995ec9b29da05faba",
+      "symbol": "TOMOE",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xa74476443119A942dE498590Fe1f2454d7D4aC0d/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x05d3606d5c81eb9b7b18530995ec9b29da05faba/logo.png",
       "tags": ["enterprise"]
     },
     {
