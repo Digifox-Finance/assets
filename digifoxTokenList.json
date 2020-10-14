@@ -223,7 +223,7 @@
     {
       "name": "NXM",
       "address": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
-      "symbol": "NXM",
+      "symbol": "wNXM",
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x0d438f3b5175bebc262bf23753c1e53d03432bde/logo.png",
