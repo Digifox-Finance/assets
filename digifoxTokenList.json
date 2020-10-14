@@ -90,7 +90,7 @@
     {
       "name": "Wrapped Bitcoin",
       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "symbol": "WBTC",
+      "symbol": "wBTC",
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
