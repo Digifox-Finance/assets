@@ -46,7 +46,7 @@
       "name": "Tether",
       "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "symbol": "USDT",
-      "decimals": 18,
+      "decimals": 6,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
       "tags": ["stablecoin"]
@@ -55,7 +55,7 @@
       "name": "USD Coin",
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "symbol": "USDC",
-      "decimals": 18,
+      "decimals": 6,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
       "tags": ["stablecoin"]
@@ -91,7 +91,7 @@
       "name": "Wrapped Bitcoin",
       "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "symbol": "wBTC",
-      "decimals": 18,
+      "decimals": 8,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
       "tags": ["synthetic"]
@@ -162,7 +162,7 @@
       "name": "Celsius",
       "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
       "symbol": "CEL",
-      "decimals": 18,
+      "decimals": 4,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d/logo.png"
     },
@@ -302,7 +302,7 @@
       "name": "Storj",
       "address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
       "symbol": "STORJ",
-      "decimals": 18,
+      "decimals": 9,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC/logo.png",
       "tags": ["enterprise"]
@@ -345,7 +345,7 @@
       "name": "Ampleforth",
       "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
       "symbol": "AMPL",
-      "decimals": 18,
+      "decimals": 9,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0xD46bA6D942050d489DBd938a2C909A5d5039A161/logo.png",
       "tags": ["defi"]
@@ -390,7 +390,7 @@
       "name": "iExec RLC",
       "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
       "symbol": "RLC",
-      "decimals": 18,
+      "decimals": 9,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x607F4C5BB672230e8672085532f7e901544a7375/logo.png",
       "tags": ["oracle"]
@@ -408,7 +408,7 @@
       "name": "Unibright",
       "address": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
       "symbol": "UBT",
-      "decimals": 18,
+      "decimals": 8,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/Digifox-Finance/assets/master/tokens/0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e/logo.png",
       "tags": ["enterprise"]
